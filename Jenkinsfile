@@ -13,5 +13,10 @@ pipeline {
                 sh 'echo "500109933"'
             }
         }
+        stage('display batch') {
+            steps {
+                sh 'echo "FSAI B3"'
+            }
+        }
     }
 }
